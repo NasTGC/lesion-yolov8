@@ -1,0 +1,16 @@
+
+Benchmarks complete for model.pt on config.yaml at imgsz=512 (4534.91s)
+                   Format Status❔  Size (MB)  metrics/mAP50-95(M)  Inference time (ms/im)    FPS
+0                 PyTorch       ✅        6.4               0.5148                  201.41   4.96
+1             TorchScript       ✅       12.8               0.5160                  185.08   5.40
+2                    ONNX       ✅       12.6               0.5160                   54.76  18.26
+3                OpenVINO       ❌        0.0                  NaN                     NaN    NaN
+4                TensorRT       ❌        0.0                  NaN                     NaN    NaN
+5                  CoreML       ❌        0.0                  NaN                     NaN    NaN
+6   TensorFlow SavedModel       ❌        0.0                  NaN                     NaN    NaN
+7     TensorFlow GraphDef       ❌        0.0                  NaN                     NaN    NaN
+8         TensorFlow Lite       ❌        0.0                  NaN                     NaN    NaN
+9     TensorFlow Edge TPU       ❌        0.0                  NaN                     NaN    NaN
+10          TensorFlow.js       ❌        0.0                  NaN                     NaN    NaN
+11           PaddlePaddle       ❌        0.0                  NaN                     NaN    NaN
+12                   NCNN       ✅       12.6               0.5160                   71.91  13.91
